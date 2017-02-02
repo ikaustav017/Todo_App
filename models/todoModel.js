@@ -2,9 +2,9 @@ var mongoose = require ('mongoose');
 
 var schema = mongoose.Schema;
 
-var todoSchema = new Schema({
+var todoSchema = new schema({
 	username: String,
-	todo: String
+	todo: String,
 	isDone: Boolean,
 	hasAttachment: Boolean
 });
