@@ -24,7 +24,7 @@ module.exports = function (app){
 
 		if(req.body.id){
 			//update..record already exists
-			Todos.findByIdandUpdate(req.body.id,{
+			Todos.findByIdAndUpdate(req.body.id,{
 				todo: req.body.todo,
 				isDone: req.body.isDone,
 				hasAttachment:req.body.hasAttachment},function(err,todo){

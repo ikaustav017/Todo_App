@@ -16,7 +16,7 @@
     "url": "https://github.com/ikaustav017/Todo_App/issues"
   },
   "homepage": "https://github.com/ikaustav017/Todo_App#readme",
-  "devDependencies": {
+  "dependencies": {
     "body-parser": "^1.16.0",
     "ejs": "^2.5.5",
     "express": "^4.14.0",
